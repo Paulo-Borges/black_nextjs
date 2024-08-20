@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import type { NextPage } from "next";
 import Head from "next/head";
 
@@ -9,9 +11,12 @@ const Cart: NextPage = () => {
       <meta name="description" content="Meu carrinho de compras"/>
       <link rel="icon" href="/faviacon.ico" />
     </Head>
-      <h1>
+
+    <Header />
+      <h1 className="mt-20">
         Carrinho
       </h1>
+      <Footer />
     </>
   )
 }
