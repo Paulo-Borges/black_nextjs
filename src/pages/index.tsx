@@ -15,7 +15,7 @@ const Home: NextPage = () => {
     </Head>
     <Header />
     <main className=" flex flex-col text-center m-auto w-96">
-      <h1 className="mt-20 text-3xl">O melhor jeitode comprar o que você ama!</h1>
+      <h1 className="mt-40 text-3xl">O melhor jeito de comprar o que você ama!</h1>
       <p className="text-xs mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Fuga reprehenderit pariatur atque excepturi incidunt a
          dignissimos odio, repudiandae nulla laboriosam.
